@@ -1,0 +1,19 @@
+.articleCard {
+        background-color: rgb(234, 226, 197) ;
+        border: 3px solid;
+        border-color: rgb(253, 254, 255);
+        text-align: center;
+}
+
+.articleCardImage{
+    max-width: 200px;
+}
+
+.articleCardImage img{
+    height: auto;
+    width: 100%;
+}
+
+.articleCardContent {
+    flex-shrink: 0;
+}
