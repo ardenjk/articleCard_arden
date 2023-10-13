@@ -13,7 +13,9 @@ const articleCard = ({date, description, id, imageAlt, imageSrc, title}) => {
             <p>{date}</p>
             <p>{description}</p>
             <p></p>
-            <p><Link>href={'${id}'}ReadMore</Link></p>
+            <p>
+                <Link href={`article/${id}`}>Read More</Link>
+            </p>
 
         </div>
         </div> 
