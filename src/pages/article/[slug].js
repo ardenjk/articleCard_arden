@@ -1,5 +1,5 @@
 import {useRouter} from "next/router";
-import "../../app/global.css";
+import "../../app/globals.css";
 import Data from "../../app/components/data";
 import styles from "./article.module.css";
 
